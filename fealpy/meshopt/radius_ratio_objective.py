@@ -1,8 +1,8 @@
 from ..backend import backend_manager as bm
 from ..typing import TensorLike
-from ..solver import cg
 from ..sparse import CSRTensor,COOTensor
 from .opt import SumObjective
+from ..solver import cg
 
 class RadiusRatioSumObjective(SumObjective):
     '''
